@@ -36,6 +36,7 @@ def main():
         else:
             website[key]["http_server"] = None
         website[key]["insecure_http"], website[key]["redirect_to_https"] = check_insecure_http(key)
+        website[key]["hsts"] = check_hsts(key)
         print(website[key])
 def get_ipv6(address,website):
     website[address]["ipv6_addresses"] = []
@@ -82,6 +83,15 @@ def check_insecure_http(address):
         if (i.url).find("https://") != -1:
             return insecure, True
     return insecure, False
-                                      
+
+def check_hsts(site):
+    try:
+        response = requests.get("https://" + site)
+        if 'strict-transport-security' in response.headers.keys():
+            return True
+        else:
+            return False
+    except:
+        return False
 if __name__ == "__main__":
     main()
