@@ -43,6 +43,10 @@ def main():
             website[key]["root_ca"] = None
         else:
             website[key]["root_ca"] = check_root_ca(key)
+        if "ipv4_addresses" in website[key]:
+            website[key]["rdns_names"] = check_rdns(website[key]["ipv4_addresses"])
+        else:
+            website[key]["rdns_names"] = []
         print(website[key])
 def get_ipv6(address,website):
     website[address]["ipv6_addresses"] = []
@@ -137,6 +141,19 @@ def check_root_ca(site):
     except Exception as e:
         print(e)
         return None
+def check_rdns(ips):
+    names = []
+    for i in ips:
+        try:
+            print(i)
+            result = subprocess.check_output(["nslookup",i],timeout =2,stderr=subprocess.STDOUT).decode("utf-8")
+            result = result.split("name =")[1:]
+            for j in result:
+                if j != None and len(j) > 1:
+                    names.append(j.split("\n")[0].strip())
+        except Exception as e:
+            print(e)
+    return names
 
 
 if __name__ == "__main__":
