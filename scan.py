@@ -38,7 +38,11 @@ def main():
             website[key]["http_server"] = None
         website[key]["insecure_http"], website[key]["redirect_to_https"] = check_insecure_http(key)
         website[key]["hsts"] = check_hsts(key)
-        website[key]["tls"] = check_tls(key)
+        website[key]["tls_versions"] = check_tls(key)
+        if website[key]["tls_versions"].__len__() == 0:
+            website[key]["root_ca"] = None
+        else:
+            website[key]["root_ca"] = check_root_ca(key)
         print(website[key])
 def get_ipv6(address,website):
     website[address]["ipv6_addresses"] = []
@@ -120,6 +124,19 @@ def check_tls(site):
     except Exception as e:
         print(e)
         return tls
+def check_root_ca(site):
+    try:
+        req = "echo | openssl s_client -connect "+site+":443"
+        response = subprocess.check_output(req,timeout =2, shell = True, stderr=subprocess.STDOUT).decode("utf-8")
+        response = response.split("Certificate chain")[0]
+        response = response.split("depth:")
+        for i in response:
+            if i.find("O = ") != -1:
+                return i.split("O = ")[1].split(",")[0]
+        return None
+    except Exception as e:
+        print(e)
+        return None
 
 
 if __name__ == "__main__":
