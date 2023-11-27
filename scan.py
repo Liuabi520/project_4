@@ -38,6 +38,11 @@ def main():
             website[key]["http_server"] = None
         website[key]["insecure_http"], website[key]["redirect_to_https"] = check_insecure_http(key)
         website[key]["hsts"] = check_hsts(key)
+        website[key]["tls_versions"] = check_tls(key)
+        if website[key]["tls_versions"].__len__() == 0:
+            website[key]["root_ca"] = None
+        else:
+            website[key]["root_ca"] = check_root_ca(key)
         print(website[key])
 def get_ipv6(address,website):
     website[address]["ipv6_addresses"] = []
@@ -67,32 +72,72 @@ def check_http(address):
         print(e)
         return result
 def check_insecure_http(address):
+    print(address)
     insecure = False
     try:
-        r = requests.get("http://"+address, allow_redirects= True,timeout=2)
+        session = requests.Session()
+        session.max_redirects = 10
+        r = session.get("http://"+address, allow_redirects= True,timeout=10)
         if r.status_code == 200:
             insecure = True
         else:
             insecure = False
+        if insecure == False:
+            return insecure, False
+        i = r.history[r.history.__len__()-1]
+        if (i.url).find("https://") != -1:
+            return insecure, True
     except Exception as e:
         print(e)
         insecure = False
-    if insecure == False:
-        return insecure, False
-    for i in r.history:
-        print(i.url)
-        if (i.url).find("https://") != -1:
-            return insecure, True
-    return insecure, False
 
+    return insecure, False
 def check_hsts(site):
     try:
-        response = requests.get("https://" + site)
+        session = requests.Session()
+        session.max_redirects = 10
+        response = session.get("https://" + site, allow_redirects= True,timeout=10)
         if 'strict-transport-security' in response.headers.keys():
             return True
         else:
             return False
-    except:
+    except Exception as e:
+        print(e)
         return False
+def check_tls(site):
+    tls =[]
+    try:
+        response = subprocess.check_output(["nmap","--script", "ssl-enum-ciphers","-p","443",site],timeout =10,stderr=subprocess.STDOUT).decode("utf-8")
+        if response.find("SSLv2") != -1:
+            tls.append("SSLv2")
+        if response.find("SSLv3") != -1:
+            tls.append("SSLv3")
+        if response.find("TLSv1.0") != -1:
+            tls.append("TLSv1.0")
+        if response.find("TLSv1.1") != -1:
+            tls.append("TLSv1.1")
+        if response.find("TLSv1.2") != -1:
+            tls.append("TLSv1.2")
+        if response.find("TLSv1.3") != -1:
+            tls.append("TLSv1.3")
+        return tls
+    except Exception as e:
+        print(e)
+        return tls
+def check_root_ca(site):
+    try:
+        req = "echo | openssl s_client -connect "+site+":443"
+        response = subprocess.check_output(req,timeout =2, shell = True, stderr=subprocess.STDOUT).decode("utf-8")
+        response = response.split("Certificate chain")[0]
+        response = response.split("depth:")
+        for i in response:
+            if i.find("O = ") != -1:
+                return i.split("O = ")[1].split(",")[0]
+        return None
+    except Exception as e:
+        print(e)
+        return None
+
+
 if __name__ == "__main__":
     main()
