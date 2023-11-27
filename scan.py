@@ -14,16 +14,17 @@ def main():
         website[key]["scan_time"] = time.time()
         try:
             result = subprocess.check_output(["nslookup",key,"8.8.8.8"],timeout =2,stderr=subprocess.STDOUT).decode("utf-8")
-            result = result.split("Name:")[1]
-            if result.find("Addresses:") == -1:
-                result = result.split("Address:")[1]
-            else:
-                result = result.split("Addresses:")[1]
+            result = result.split("Name:")[1:]
+            joined = ""
+            for i in result:
+                joined += i.split("Address:")[1]
+            result = joined
         except Exception as e:
             result = "Error"
             print(e)
         if result != "Error":
             for i in result.split("\n"):
+                print(i)
                 if i != "":
                     if i.count(":") < 1 and len(i) > 1:
                         if "ipv4_addresses" not in website[key]:
@@ -41,11 +42,11 @@ def get_ipv6(address,website):
     website[address]["ipv6_addresses"] = []
     try:
         result = subprocess.check_output(["nslookup","-type=AAAA",address,"8.8.8.8"],timeout =2,stderr=subprocess.STDOUT).decode("utf-8")
-        result = result.split("Name:")[1]
-        if result.find("Addresses:") == -1:
-            result = result.split("Address:")[1]
-        else:
-            result = result.split("Addresses:")[1]
+        result = result.split("Name:")[1:]
+        joined = ""
+        for i in result:
+            joined += i.split("Address:")[1]
+        result = joined
     except Exception as e:
         result = "Error"
         print(e)
