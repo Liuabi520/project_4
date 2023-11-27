@@ -67,6 +67,7 @@ def check_http(address):
         print(e)
         return result
 def check_insecure_http(address):
+    print(address)
     insecure = False
     try:
         r = requests.get("http://"+address, allow_redirects= True,timeout=2)
@@ -87,12 +88,13 @@ def check_insecure_http(address):
 
 def check_hsts(site):
     try:
-        response = requests.get("https://" + site)
+        response = requests.get("https://" + site, allow_redirects= True,timeout=2)
         if 'strict-transport-security' in response.headers.keys():
             return True
         else:
             return False
-    except:
+    except Exception as e:
+        print(e)
         return False
 if __name__ == "__main__":
     main()
