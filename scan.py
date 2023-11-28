@@ -3,6 +3,7 @@ import time
 import subprocess
 import socket
 import requests
+import json
 website = {}
 def main():
     with open(sys.argv[1]) as f:
@@ -47,7 +48,9 @@ def main():
             website[key]["rdns_names"] = check_rdns(website[key]["ipv4_addresses"])
         else:
             website[key]["rdns_names"] = []
-        print(website[key])
+        with open(sys.argv[2], "w") as f:
+            json.dump(website, f, indent=4)
+        f.close()
 def get_ipv6(address,website):
     website[address]["ipv6_addresses"] = []
     try:

@@ -1,0 +1,656 @@
+{
+    "youtube.com": {
+        "scan_time": 1701130822.6824248,
+        "ipv6_addresses": [
+            "2607:f8b0:4009:81b::200e"
+        ],
+        "http_server": "ESF",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "en.wikipedia.org": {
+        "scan_time": 1701130824.7273142,
+        "ipv6_addresses": [
+            "2620:0:861:ed1a::1"
+        ],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "twitter.com": {
+        "scan_time": 1701130825.9344115,
+        "ipv4_addresses": [
+            "104.244.42.65"
+        ],
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "facebook.com": {
+        "scan_time": 1701130827.4349508,
+        "ipv6_addresses": [
+            "2a03:2880:f175:181:face:b00c:0:25de"
+        ],
+        "http_server": "proxygen-bolt",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "amazon.com": {
+        "scan_time": 1701130828.8596606,
+        "ipv6_addresses": [],
+        "http_server": "Server",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "yelp.com": {
+        "scan_time": 1701130830.2149866,
+        "ipv4_addresses": [
+            "151.101.68.116"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "reddit.com": {
+        "scan_time": 1701130832.4291992,
+        "ipv6_addresses": [],
+        "http_server": "snooserv",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "imdb.com": {
+        "scan_time": 1701130834.4844296,
+        "ipv6_addresses": [],
+        "http_server": "Server",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "fandom.com": {
+        "scan_time": 1701130835.8006318,
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "pinterest.com": {
+        "scan_time": 1701130836.7685165,
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "tripadvisor.com": {
+        "scan_time": 1701130838.1651924,
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "instagram.com": {
+        "scan_time": 1701130859.290854,
+        "ipv6_addresses": [
+            "2a03:2880:f275:1e9:face:b00c:0:4420"
+        ],
+        "http_server": "proxygen-bolt",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "walmart.com": {
+        "scan_time": 1701130861.0244598,
+        "ipv4_addresses": [
+            "23.203.41.111"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "AkamaiGHost",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "craigslist.org": {
+        "scan_time": 1701130862.2470927,
+        "ipv4_addresses": [
+            "208.82.237.129"
+        ],
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "ebay.com": {
+        "scan_time": 1701130864.8393707,
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "linkedin.com": {
+        "scan_time": 1701130867.4719906,
+        "ipv6_addresses": [
+            "2620:1ec:21::14"
+        ],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "play.google.com": {
+        "scan_time": 1701130868.963736,
+        "ipv6_addresses": [
+            "2607:f8b0:4009:814::200e"
+        ],
+        "http_server": "ESF",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "healthline.com": {
+        "scan_time": 1701130871.4640346,
+        "ipv6_addresses": [],
+        "http_server": "CloudFront",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "etsy.com": {
+        "scan_time": 1701130872.6926584,
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "indeed.com": {
+        "scan_time": 1701130873.7392695,
+        "ipv6_addresses": [],
+        "http_server": "cloudflare",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "apple.com": {
+        "scan_time": 1701130874.509179,
+        "ipv6_addresses": [
+            "2620:149:af0::10"
+        ],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "espn.com": {
+        "scan_time": 1701130875.5150263,
+        "ipv6_addresses": [],
+        "http_server": "Apache/2.4.6 (CentOS) PHP/5.4.16 OpenSSL/1.0.2k-fips",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "webmd.com": {
+        "scan_time": 1701130876.3653219,
+        "ipv4_addresses": [
+            "207.231.204.56"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "fb.com": {
+        "scan_time": 1701130877.8344004,
+        "ipv6_addresses": [
+            "2a03:2880:f175:181:face:b00c:0:25de"
+        ],
+        "http_server": "proxygen-bolt",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "nytimes.com": {
+        "scan_time": 1701130879.1922529,
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "google.com": {
+        "scan_time": 1701130880.4986753,
+        "ipv6_addresses": [
+            "2607:f8b0:4009:814::200e"
+        ],
+        "http_server": "gws",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "cnn.com": {
+        "scan_time": 1701130881.5669963,
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "merriam-webster.com": {
+        "scan_time": 1701130882.8031201,
+        "ipv6_addresses": [],
+        "http_server": "CloudFront",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "gamepedia.com": {
+        "scan_time": 1701130883.9846983,
+        "ipv4_addresses": [
+            "151.101.128.194"
+        ],
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "microsoft.com": {
+        "scan_time": 1701130885.2590694,
+        "ipv6_addresses": [],
+        "http_server": "Kestrel",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "target.com": {
+        "scan_time": 1701130887.5549593,
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "homedepot.com": {
+        "scan_time": 1701130888.8986475,
+        "ipv4_addresses": [
+            "35.201.95.83"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "nginx/1.25.2",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "quora.com": {
+        "scan_time": 1701130909.9644463,
+        "ipv6_addresses": [],
+        "http_server": "nginx",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "nih.gov": {
+        "scan_time": 1701130911.4955544,
+        "ipv4_addresses": [
+            "156.40.212.210"
+        ],
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "rottentomatoes.com": {
+        "scan_time": 1701130912.9037714,
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "netflix.com": {
+        "scan_time": 1701130914.3005073,
+        "ipv6_addresses": [],
+        "http_server": "nq_website_nonmember-prod-release UNKNOWN",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "quizlet.com": {
+        "scan_time": 1701130916.2409792,
+        "ipv6_addresses": [],
+        "http_server": "cloudflare",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "weather.com": {
+        "scan_time": 1701130917.2966044,
+        "ipv6_addresses": [],
+        "http_server": "AkamaiGHost",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "mapquest.com": {
+        "scan_time": 1701130918.6384797,
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "britannica.com": {
+        "scan_time": 1701130920.2249224,
+        "ipv6_addresses": [],
+        "http_server": "awselb/2.0",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "businessinsider.com": {
+        "scan_time": 1701130921.7693295,
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "dictionary.com": {
+        "scan_time": 1701130922.937391,
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "zillow.com": {
+        "scan_time": 1701130923.940199,
+        "ipv6_addresses": [],
+        "http_server": "AmazonS3",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "mayoclinic.org": {
+        "scan_time": 1701130925.2007413,
+        "ipv4_addresses": [
+            "129.176.1.88"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "BigIP",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "bestbuy.com": {
+        "scan_time": 1701130926.4738548,
+        "ipv4_addresses": [
+            "23.62.188.177"
+        ],
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "theguardian.com": {
+        "scan_time": 1701130927.8396606,
+        "ipv6_addresses": [],
+        "http_server": "Varnish",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "yahoo.com": {
+        "scan_time": 1701130929.1728764,
+        "ipv6_addresses": [],
+        "http_server": "ATS",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "msn.com": {
+        "scan_time": 1701130931.1985905,
+        "ipv4_addresses": [
+            "204.79.197.219"
+        ],
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": false,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "usatoday.com": {
+        "scan_time": 1701130932.4758284,
+        "ipv4_addresses": [
+            "151.101.210.62"
+        ],
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "medicalnewstoday.com": {
+        "scan_time": 1701130933.666919,
+        "ipv6_addresses": [],
+        "http_server": "CloudFront",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": true,
+        "tls_versions": [],
+        "root_ca": null,
+        "rdns_names": []
+    },
+    "urbandictionary.com": {},
+    "usnews.com": {},
+    "foxnews.com": {},
+    "genius.com": {},
+    "allrecipes.com": {},
+    "spotify.com": {},
+    "glassdoor.com": {},
+    "forbes.com": {},
+    "cnet.com": {},
+    "finance.yahoo.com": {},
+    "irs.gov": {},
+    "lowes.com": {},
+    "mail.yahoo.com": {},
+    "aol.com": {},
+    "steampowered.com": {},
+    "washingtonpost.com": {},
+    "usps.com": {},
+    "office.com": {},
+    "retailmenot.com": {},
+    "wiktionary.org": {},
+    "paypal.com": {},
+    "foodnetwork.com": {},
+    "hulu.com": {},
+    "live.com": {},
+    "cbssports.com": {},
+    "wayfair.com": {},
+    "ca.gov": {},
+    "bleacherreport.com": {},
+    "macys.com": {},
+    "accuweather.com": {},
+    "xfinity.com": {},
+    "go.com": {},
+    "techradar.com": {},
+    "groupon.com": {},
+    "investopedia.com": {},
+    "yellowpages.com": {},
+    "steamcommunity.com": {},
+    "chase.com": {},
+    "wellsfargo.com": {},
+    "npr.org": {},
+    "apartments.com": {},
+    "roblox.com": {},
+    "huffpost.com": {},
+    "books.google.com": {},
+    "bankofamerica.com": {},
+    "bbb.org": {},
+    "expedia.com": {},
+    "wikihow.com": {},
+    "ign.com": {},
+    "wowhead.com": {}
+}
