@@ -1,846 +1,141 @@
-{
-    "youtube.com": {
-        "scan_time": 1701143076.47492,
-        "ipv6_addresses": [
-            "2607:f8b0:4009:81b::200e"
-        ],
-        "http_server": "ESF",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "en.wikipedia.org": {
-        "scan_time": 1701143078.5040174,
-        "ipv6_addresses": [
-            "2620:0:861:ed1a::1"
-        ],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "twitter.com": {
-        "scan_time": 1701143079.5574794,
-        "ipv4_addresses": [
-            "104.244.42.129"
-        ],
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.03803420066833496,
-            0.03803420066833496
-        ]
-    },
-    "facebook.com": {
-        "scan_time": 1701143080.8846893,
-        "ipv6_addresses": [
-            "2a03:2880:f175:181:face:b00c:0:25de"
-        ],
-        "http_server": "proxygen-bolt",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "amazon.com": {
-        "scan_time": 1701143082.6383593,
-        "ipv6_addresses": [],
-        "http_server": "Server",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "yelp.com": {
-        "scan_time": 1701143084.0594597,
-        "ipv4_addresses": [
-            "151.101.68.116"
-        ],
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.04103732109069824,
-            0.04103732109069824
-        ]
-    },
-    "reddit.com": {
-        "scan_time": 1701143086.4888792,
-        "ipv6_addresses": [],
-        "http_server": "snooserv",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "imdb.com": {
-        "scan_time": 1701143088.9595585,
-        "ipv6_addresses": [],
-        "http_server": "Server",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "fandom.com": {
-        "scan_time": 1701143090.3908596,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "pinterest.com": {
-        "scan_time": 1701143091.4237983,
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "tripadvisor.com": {
-        "scan_time": 1701143092.9793572,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "instagram.com": {
-        "scan_time": 1701143114.3604145,
-        "ipv6_addresses": [
-            "2a03:2880:f275:1e9:face:b00c:0:4420"
-        ],
-        "http_server": "proxygen-bolt",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "walmart.com": {
-        "scan_time": 1701143115.769695,
-        "ipv4_addresses": [
-            "23.203.41.111"
-        ],
-        "ipv6_addresses": [],
-        "http_server": "AkamaiGHost",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.017014265060424805,
-            0.017014265060424805
-        ]
-    },
-    "craigslist.org": {
-        "scan_time": 1701143116.9517698,
-        "ipv4_addresses": [
-            "208.82.237.129"
-        ],
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.03403115272521973,
-            0.03403115272521973
-        ]
-    },
-    "ebay.com": {
-        "scan_time": 1701143119.427901,
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "linkedin.com": {
-        "scan_time": 1701143121.7390468,
-        "ipv6_addresses": [
-            "2620:1ec:21::14"
-        ],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "play.google.com": {
-        "scan_time": 1701143123.3234873,
-        "ipv6_addresses": [
-            "2607:f8b0:4009:809::200e"
-        ],
-        "http_server": "ESF",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "healthline.com": {
-        "scan_time": 1701143125.4314032,
-        "ipv6_addresses": [],
-        "http_server": "CloudFront",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "etsy.com": {
-        "scan_time": 1701143126.6674583,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "indeed.com": {
-        "scan_time": 1701143127.5933003,
-        "ipv6_addresses": [],
-        "http_server": "cloudflare",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "apple.com": {
-        "scan_time": 1701143128.4526103,
-        "ipv6_addresses": [
-            "2620:149:af0::10"
-        ],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "espn.com": {
-        "scan_time": 1701143129.5039375,
-        "ipv6_addresses": [],
-        "http_server": "Apache/2.4.6 (CentOS) PHP/5.4.16 OpenSSL/1.0.2k-fips",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "webmd.com": {
-        "scan_time": 1701143130.3554265,
-        "ipv4_addresses": [
-            "207.231.204.56"
-        ],
-        "ipv6_addresses": [],
-        "http_server": "Apache",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.04103732109069824,
-            0.04103732109069824
-        ]
-    },
-    "fb.com": {
-        "scan_time": 1701143131.9303648,
-        "ipv6_addresses": [
-            "2a03:2880:f175:181:face:b00c:0:25de"
-        ],
-        "http_server": "proxygen-bolt",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "nytimes.com": {
-        "scan_time": 1701143133.4867795,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "google.com": {
-        "scan_time": 1701143134.8526223,
-        "ipv6_addresses": [
-            "2607:f8b0:4009:81b::200e"
-        ],
-        "http_server": "gws",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "cnn.com": {
-        "scan_time": 1701143135.8985717,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "merriam-webster.com": {
-        "scan_time": 1701143137.0596704,
-        "ipv6_addresses": [],
-        "http_server": "CloudFront",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "gamepedia.com": {
-        "scan_time": 1701143138.0609076,
-        "ipv4_addresses": [
-            "151.101.128.194"
-        ],
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.018016338348388672,
-            0.018016338348388672
-        ]
-    },
-    "microsoft.com": {
-        "scan_time": 1701143139.2940292,
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "target.com": {
-        "scan_time": 1701143157.2154522,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "homedepot.com": {
-        "scan_time": 1701143158.5546706,
-        "ipv4_addresses": [
-            "35.201.95.83"
-        ],
-        "ipv6_addresses": [],
-        "http_server": "nginx/1.25.2",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.03903627395629883,
-            0.03903627395629883
-        ]
-    },
-    "quora.com": {
-        "scan_time": 1701143179.641796,
-        "ipv6_addresses": [],
-        "http_server": "nginx",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "nih.gov": {
-        "scan_time": 1701143181.3413935,
-        "ipv4_addresses": [
-            "156.40.212.210"
-        ],
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.03404045104980469,
-            0.03404045104980469
-        ]
-    },
-    "rottentomatoes.com": {
-        "scan_time": 1701143182.741988,
-        "ipv4_addresses": [
-            "23.10.79.207"
-        ],
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.1311192512512207,
-            0.1311192512512207
-        ]
-    },
-    "netflix.com": {
-        "scan_time": 1701143184.545536,
-        "ipv6_addresses": [],
-        "http_server": "nq_website_nonmember-prod-release UNKNOWN",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "quizlet.com": {
-        "scan_time": 1701143186.5163267,
-        "ipv6_addresses": [],
-        "http_server": "cloudflare",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "weather.com": {
-        "scan_time": 1701143187.4761999,
-        "ipv6_addresses": [],
-        "http_server": "AkamaiGHost",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "mapquest.com": {
-        "scan_time": 1701143188.5832052,
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "britannica.com": {
-        "scan_time": 1701143190.2307062,
-        "ipv6_addresses": [],
-        "http_server": "awselb/2.0",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "businessinsider.com": {
-        "scan_time": 1701143191.7434015,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "dictionary.com": {
-        "scan_time": 1701143192.7808871,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "zillow.com": {
-        "scan_time": 1701143193.8165061,
-        "ipv6_addresses": [],
-        "http_server": "AmazonS3",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "mayoclinic.org": {
-        "scan_time": 1701143195.0065885,
-        "ipv4_addresses": [
-            "129.176.1.88"
-        ],
-        "ipv6_addresses": [],
-        "http_server": "BigIP",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.03102874755859375,
-            0.03102874755859375
-        ]
-    },
-    "bestbuy.com": {
-        "scan_time": 1701143196.5369816,
-        "ipv4_addresses": [
-            "23.62.188.177"
-        ],
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.13211941719055176,
-            0.13211941719055176
-        ]
-    },
-    "theguardian.com": {
-        "scan_time": 1701143198.059282,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "yahoo.com": {
-        "scan_time": 1701143199.4646666,
-        "ipv6_addresses": [],
-        "http_server": "ATS",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "msn.com": {
-        "scan_time": 1701143201.531573,
-        "ipv4_addresses": [
-            "204.79.197.219"
-        ],
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.018016576766967773,
-            0.018016576766967773
-        ]
-    },
-    "usatoday.com": {
-        "scan_time": 1701143202.7853525,
-        "ipv4_addresses": [
-            "146.75.30.62"
-        ],
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.03503251075744629,
-            0.03503251075744629
-        ]
-    },
-    "medicalnewstoday.com": {
-        "scan_time": 1701143204.0616665,
-        "ipv6_addresses": [],
-        "http_server": "CloudFront",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "urbandictionary.com": {
-        "scan_time": 1701143205.3908727,
-        "ipv6_addresses": [
-            "2600:1901:0:efcd::"
-        ],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "usnews.com": {
-        "scan_time": 1701143206.7000625,
-        "ipv4_addresses": [
-            "23.43.214.146"
-        ],
-        "ipv6_addresses": [],
-        "http_server": null,
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.019018173217773438,
-            0.019018173217773438
-        ]
-    },
-    "foxnews.com": {
-        "scan_time": 1701143229.8261788,
-        "ipv4_addresses": [
-            "23.47.201.109"
-        ],
-        "ipv6_addresses": [],
-        "http_server": "AkamaiGHost",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.06105661392211914,
-            0.06105661392211914
-        ]
-    },
-    "genius.com": {
-        "scan_time": 1701143230.9627178,
-        "ipv6_addresses": [],
-        "http_server": "cloudflare",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "allrecipes.com": {
-        "scan_time": 1701143232.1918354,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "spotify.com": {
-        "scan_time": 1701143233.9145694,
-        "ipv6_addresses": [
-            "2600:1901:1:c36::"
-        ],
-        "http_server": null,
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "glassdoor.com": {
-        "scan_time": 1701143235.4586425,
-        "ipv6_addresses": [],
-        "http_server": "cloudflare",
-        "insecure_http": false,
-        "redirect_to_https": false,
-        "hsts": false,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "forbes.com": {
-        "scan_time": 1701143236.3574598,
-        "ipv6_addresses": [],
-        "http_server": "Varnish",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "cnet.com": {
-        "scan_time": 1701143237.494101,
-        "ipv4_addresses": [
-            "34.149.196.126"
-        ],
-        "ipv6_addresses": [],
-        "http_server": "nginx/1.25.3",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": [],
-        "rtt_range": [
-            0.021018505096435547,
-            0.021018505096435547
-        ]
-    },
-    "finance.yahoo.com": {
-        "scan_time": 1701143238.7928941,
-        "ipv6_addresses": [],
-        "http_server": "ATS",
-        "insecure_http": true,
-        "redirect_to_https": false,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "irs.gov": {
-        "scan_time": 1701143239.9394414,
-        "ipv6_addresses": [],
-        "http_server": "BigIP",
-        "insecure_http": true,
-        "redirect_to_https": true,
-        "hsts": true,
-        "tls_versions": [],
-        "root_ca": null,
-        "rdns_names": []
-    },
-    "lowes.com": {},
-    "mail.yahoo.com": {},
-    "aol.com": {},
-    "steampowered.com": {},
-    "washingtonpost.com": {},
-    "usps.com": {},
-    "office.com": {},
-    "retailmenot.com": {},
-    "wiktionary.org": {},
-    "paypal.com": {},
-    "foodnetwork.com": {},
-    "hulu.com": {},
-    "live.com": {},
-    "cbssports.com": {},
-    "wayfair.com": {},
-    "ca.gov": {},
-    "bleacherreport.com": {},
-    "macys.com": {},
-    "accuweather.com": {},
-    "xfinity.com": {},
-    "go.com": {},
-    "techradar.com": {},
-    "groupon.com": {},
-    "investopedia.com": {},
-    "yellowpages.com": {},
-    "steamcommunity.com": {},
-    "chase.com": {},
-    "wellsfargo.com": {},
-    "npr.org": {},
-    "apartments.com": {},
-    "roblox.com": {},
-    "huffpost.com": {},
-    "books.google.com": {},
-    "bankofamerica.com": {},
-    "bbb.org": {},
-    "expedia.com": {},
-    "wikihow.com": {},
-    "ign.com": {},
-    "wowhead.com": {}
-}
++----------------------+----------------------+----------------------+----------------------+
+|       Address        |       Min RTT        |       Max RTT        |        Range         |
++======================+======================+======================+======================+
+| it.eecs.northwestern | 0.000                | 0.000                | [0.00029659271240234 |
+| .edu                 |                      |                      | 375, 0.0002965927124 |
+|                      |                      |                      | 0234375]             |
++----------------------+----------------------+----------------------+----------------------+
+| users.cs.northwester | 0.000                | 0.000                | [0.00034093856811523 |
+| n.edu                |                      |                      | 44, 0.00034093856811 |
+|                      |                      |                      | 52344]               |
++----------------------+----------------------+----------------------+----------------------+
+| mccormick.northweste | 0.000                | 0.000                | [0.00046896934509277 |
+| rn.edu               |                      |                      | 344, 0.0004689693450 |
+|                      |                      |                      | 9277344]             |
++----------------------+----------------------+----------------------+----------------------+
+| northwestern.edu     | 0.001                | 0.001                | [0.00066637992858886 |
+|                      |                      |                      | 72, 0.00066637992858 |
+|                      |                      |                      | 88672]               |
++----------------------+----------------------+----------------------+----------------------+
+| kellogg.northwestern | 0.001                | 0.001                | [0.00078654289245605 |
+| .edu                 |                      |                      | 47, 0.00078654289245 |
+|                      |                      |                      | 60547]               |
++----------------------+----------------------+----------------------+----------------------+
+| spacejam.com         | 0.001                | 0.001                | [0.00129485130310058 |
+|                      |                      |                      | 6, 0.001377582550048 |
+|                      |                      |                      | 8281]                |
++----------------------+----------------------+----------------------+----------------------+
+| kli.org              | 0.002                | 0.002                | [0.00173711776733398 |
+|                      |                      |                      | 44, 0.00235795974731 |
+|                      |                      |                      | 4453]                |
++----------------------+----------------------+----------------------+----------------------+
+| clocktab.com         | 0.002                | 0.003                | [0.00178933143615722 |
+|                      |                      |                      | 66, 0.00337767601013 |
+|                      |                      |                      | 1836]                |
++----------------------+----------------------+----------------------+----------------------+
+| illinois.edu         | 0.005                | 0.005                | [0.00467967987060546 |
+|                      |                      |                      | 9, 0.004679679870605 |
+|                      |                      |                      | 469]                 |
++----------------------+----------------------+----------------------+----------------------+
+| stevetarzia.com      | 0.009                | 0.009                | [0.00917124748229980 |
+|                      |                      |                      | 5, 0.009171247482299 |
+|                      |                      |                      | 805]                 |
++----------------------+----------------------+----------------------+----------------------+
+| gradeinflation.com   | 0.018                | 0.018                | [0.01774740219116211 |
+|                      |                      |                      | ,                    |
+|                      |                      |                      | 0.01774740219116211] |
++----------------------+----------------------+----------------------+----------------------+
+| asee.org             | 0.021                | 0.021                | [0.02074313163757324 |
+|                      |                      |                      | 2, 0.020743131637573 |
+|                      |                      |                      | 242]                 |
++----------------------+----------------------+----------------------+----------------------+
+| pmichaud.com         | 0.024                | 0.024                | [0.0238192081451416, |
+|                      |                      |                      | 0.0238192081451416]  |
++----------------------+----------------------+----------------------+----------------------+
+| uchicago.edu         | 0.024                | 0.024                | [0.02427744865417480 |
+|                      |                      |                      | 5, 0.024277448654174 |
+|                      |                      |                      | 805]                 |
++----------------------+----------------------+----------------------+----------------------+
+| auditoryneuroscience | 0.196                | 0.196                | [0.19615387916564941 |
+| .com                 |                      |                      | ,                    |
+|                      |                      |                      | 0.19615387916564941] |
++----------------------+----------------------+----------------------+----------------------++----------------------+----------------------+
+|       Root CA        |        Count         |
++======================+======================+
+| The USERTRUST        | 6                    |
+| Network              |                      |
++----------------------+----------------------+
+| Internet Security    | 3                    |
+| Research Group       |                      |
++----------------------+----------------------+
+| Unspecified          | 1                    |
++----------------------+----------------------+
+| Google Trust         | 1                    |
+| Services LLC         |                      |
++----------------------+----------------------+
+| DigiCert Inc         | 1                    |
++----------------------+----------------------+
+| GlobalSign           | 1                    |
++----------------------+----------------------+
+| COMODO CA Limited    | 1                    |
++----------------------+----------------------+
+| Baltimore            | 1                    |
++----------------------+----------------------++----------------------+----------------------+
+|        Server        |        Count         |
++======================+======================+
+| Apache               | 3                    |
++----------------------+----------------------+
+| cloudflare           | 2                    |
++----------------------+----------------------+
+| BigIP                | 1                    |
++----------------------+----------------------+
+| Apache/2.4.41        | 1                    |
+| (Ubuntu)             |                      |
++----------------------+----------------------+
+| Microsoft-IIS/10.0   | 1                    |
++----------------------+----------------------+
+| Apache/2.4.37 (Red   | 1                    |
+| Hat Enterprise       |                      |
+| Linux)               |                      |
+| OpenSSL/1.1.1k       |                      |
++----------------------+----------------------+
+| Apache/2.2.15 (Red   | 1                    |
+| Hat) mod_ssl/2.2.15  |                      |
+| OpenSSL/1.0.1e-fips  |                      |
++----------------------+----------------------+
+| Apache/2.4.58 ()     | 1                    |
+| OpenSSL/1.0.2k-fips  |                      |
+| PHP/5.4.16           |                      |
++----------------------+----------------------+
+| Apache/2.4.58        | 1                    |
+| (Ubuntu)             |                      |
++----------------------+----------------------+
+| None                 | 1                    |
++----------------------+----------------------+
+| nginx                | 1                    |
++----------------------+----------------------+
+| Apache/2.4.57 ()     | 1                    |
+| OpenSSL/1.0.2k-fips  |                      |
++----------------------+----------------------++----------------------+----------------------+
+|     TLS Version      |      Percentage      |
++======================+======================+
+| TLSv1.0              | 33.330               |
++----------------------+----------------------+
+| TLSv1.1              | 33.330               |
++----------------------+----------------------+
+| TLSv1.2              | 80                   |
++----------------------+----------------------+
+| TLSv1.3              | 33.330               |
++----------------------+----------------------+
+| SSLv2                | 0                    |
++----------------------+----------------------+
+| SSLv3                | 0                    |
++----------------------+----------------------+
+| Insecure HTTP        | 80                   |
++----------------------+----------------------+
+| Redirect to HTTPS    | 13.330               |
++----------------------+----------------------+
+| HSTS                 | 6.670                |
++----------------------+----------------------+
+| IPv6                 | 13.330               |
++----------------------+----------------------+
