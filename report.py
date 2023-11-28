@@ -16,7 +16,8 @@ def rtt(website):
     table.add_rows([["Address", "Min RTT", "Max RTT", "Range"]])
     for key in website:
         if "rtt_range" in website[key]:
-            table.add_row([key, website[key]["rtt_range"][0], website[key]["rtt_range"][1], website[key]["rtt_range"][1] - website[key]["rtt_range"][0]])
+            table.add_row([key, website[key]["rtt_range"][0], website[key]["rtt_range"][1], website[key]["rtt_range"]])
+    table.sort(0, True)
     print(table.draw())
 
 if __name__ == "__main__":

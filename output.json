@@ -1,0 +1,346 @@
+{
+    "northwestern.edu": {
+        "scan_time": 1701143234.6331446,
+        "ipv4_addresses": [
+            "129.105.136.48"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "BigIP",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ],
+        "root_ca": "The USERTRUST Network",
+        "rdns_names": [
+            "cnair.northwestern.edu.",
+            "evcommon-caesar-vip.northwestern.edu."
+        ],
+        "rtt_range": [
+            0.0006663799285888672,
+            0.0006663799285888672
+        ]
+    },
+    "mccormick.northwestern.edu": {
+        "scan_time": 1701143235.5012732,
+        "ipv4_addresses": [
+            "165.124.149.20"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache/2.4.41 (Ubuntu)",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.2"
+        ],
+        "root_ca": "The USERTRUST Network",
+        "rdns_names": [
+            "davinci20.tech.northwestern.edu."
+        ],
+        "rtt_range": [
+            0.00046896934509277344,
+            0.00046896934509277344
+        ]
+    },
+    "kellogg.northwestern.edu": {
+        "scan_time": 1701143236.4869306,
+        "ipv4_addresses": [
+            "165.124.147.150"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Microsoft-IIS/10.0",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.2"
+        ],
+        "root_ca": "The USERTRUST Network",
+        "rdns_names": [
+            "kelloggalumni.kellogg.northwestern.edu."
+        ],
+        "rtt_range": [
+            0.0007865428924560547,
+            0.0007865428924560547
+        ]
+    },
+    "users.cs.northwestern.edu": {
+        "scan_time": 1701143237.1876462,
+        "ipv4_addresses": [
+            "165.124.180.20"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.2"
+        ],
+        "root_ca": "The USERTRUST Network",
+        "rdns_names": [
+            "web1.cs.northwestern.edu."
+        ],
+        "rtt_range": [
+            0.0003409385681152344,
+            0.0003409385681152344
+        ]
+    },
+    "it.eecs.northwestern.edu": {
+        "scan_time": 1701143237.8464732,
+        "ipv4_addresses": [
+            "129.105.5.142"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache/2.4.37 (Red Hat Enterprise Linux) OpenSSL/1.1.1k",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ],
+        "root_ca": "Unspecified",
+        "rdns_names": [
+            "it.ece.northwestern.edu."
+        ],
+        "rtt_range": [
+            0.00029659271240234375,
+            0.00029659271240234375
+        ]
+    },
+    "uchicago.edu": {
+        "scan_time": 1701143238.499813,
+        "ipv4_addresses": [
+            "3.215.148.80"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [],
+        "root_ca": "The USERTRUST Network",
+        "rdns_names": [
+            "ec2-3-215-148-80.compute-1.amazonaws.com."
+        ],
+        "rtt_range": [
+            0.024277448654174805,
+            0.024277448654174805
+        ]
+    },
+    "illinois.edu": {
+        "scan_time": 1701143240.9331303,
+        "ipv4_addresses": [
+            "192.17.172.3"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache/2.2.15 (Red Hat) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ],
+        "root_ca": "The USERTRUST Network",
+        "rdns_names": [
+            "tardis.techservices.illinois.edu."
+        ],
+        "rtt_range": [
+            0.004679679870605469,
+            0.004679679870605469
+        ]
+    },
+    "stevetarzia.com": {
+        "scan_time": 1701143242.5431454,
+        "ipv4_addresses": [
+            "3.143.61.245"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache/2.4.58 () OpenSSL/1.0.2k-fips PHP/5.4.16",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2"
+        ],
+        "root_ca": "Internet Security Research Group",
+        "rdns_names": [
+            "waffles.stevetarzia.com."
+        ],
+        "rtt_range": [
+            0.009171247482299805,
+            0.009171247482299805
+        ]
+    },
+    "clocktab.com": {
+        "scan_time": 1701143244.2102382,
+        "ipv4_addresses": [
+            "104.21.47.194",
+            "172.67.172.37"
+        ],
+        "ipv6_addresses": [
+            "2606:4700:3036::6815:2fc2",
+            "2606:4700:3036::ac43:ac25"
+        ],
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ],
+        "root_ca": "Google Trust Services LLC",
+        "rdns_names": [],
+        "rtt_range": [
+            0.0017893314361572266,
+            0.003377676010131836
+        ]
+    },
+    "auditoryneuroscience.com": {
+        "scan_time": 1701143245.4080675,
+        "ipv4_addresses": [
+            "144.214.26.111"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache/2.4.58 (Ubuntu)",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [],
+        "root_ca": "Internet Security Research Group",
+        "rdns_names": [
+            "twinkle.bms.cityu.edu.hk."
+        ],
+        "rtt_range": [
+            0.19615387916564941,
+            0.19615387916564941
+        ]
+    },
+    "asee.org": {
+        "scan_time": 1701143250.433536,
+        "ipv4_addresses": [
+            "20.49.104.48"
+        ],
+        "ipv6_addresses": [],
+        "http_server": null,
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": false,
+        "tls": [
+            "TLSv1.2"
+        ],
+        "root_ca": "DigiCert Inc",
+        "rdns_names": [],
+        "rtt_range": [
+            0.020743131637573242,
+            0.020743131637573242
+        ]
+    },
+    "gradeinflation.com": {
+        "scan_time": 1701143253.4503434,
+        "ipv4_addresses": [
+            "51.79.45.180"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "nginx",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ],
+        "root_ca": "Internet Security Research Group",
+        "rdns_names": [
+            "gw1.ahs5.r4l.com."
+        ],
+        "rtt_range": [
+            0.01774740219116211,
+            0.01774740219116211
+        ]
+    },
+    "spacejam.com": {
+        "scan_time": 1701143254.933747,
+        "ipv4_addresses": [
+            "99.83.180.228",
+            "75.2.104.223"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache/2.4.57 () OpenSSL/1.0.2k-fips",
+        "insecure_http": true,
+        "redirect_to_https": false,
+        "hsts": true,
+        "tls": [],
+        "root_ca": "GlobalSign",
+        "rdns_names": [
+            "a259cf76d74e1f65f.awsglobalaccelerator.com.",
+            "a259cf76d74e1f65f.awsglobalaccelerator.com."
+        ],
+        "rtt_range": [
+            0.001294851303100586,
+            0.0013775825500488281
+        ]
+    },
+    "pmichaud.com": {
+        "scan_time": 1701143257.5837343,
+        "ipv4_addresses": [
+            "23.254.203.248"
+        ],
+        "ipv6_addresses": [],
+        "http_server": "Apache",
+        "insecure_http": false,
+        "redirect_to_https": false,
+        "hsts": false,
+        "tls": [
+            "TLSv1.2",
+            "TLSv1.3"
+        ],
+        "root_ca": "COMODO CA Limited",
+        "rdns_names": [
+            "hwsrv-233708.hostwindsdns.com."
+        ],
+        "rtt_range": [
+            0.0238192081451416,
+            0.0238192081451416
+        ]
+    },
+    "kli.org": {
+        "scan_time": 1701143260.241442,
+        "ipv4_addresses": [
+            "104.21.4.169",
+            "172.67.132.72"
+        ],
+        "ipv6_addresses": [
+            "2606:4700:3033::6815:4a9",
+            "2606:4700:3035::ac43:8448"
+        ],
+        "http_server": "cloudflare",
+        "insecure_http": true,
+        "redirect_to_https": true,
+        "hsts": false,
+        "tls": [
+            "TLSv1.0",
+            "TLSv1.1",
+            "TLSv1.2",
+            "TLSv1.3"
+        ],
+        "root_ca": "Baltimore",
+        "rdns_names": [],
+        "rtt_range": [
+            0.0017371177673339844,
+            0.002357959747314453
+        ]
+    }
+}
