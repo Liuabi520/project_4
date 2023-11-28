@@ -48,9 +48,12 @@ def main():
             website[key]["rdns_names"] = check_rdns(website[key]["ipv4_addresses"])
         else:
             website[key]["rdns_names"] = []
-        with open(sys.argv[2], "w") as f:
-            json.dump(website, f, indent=4)
-        f.close()
+        if "ipv4_addresses" in website[key]:
+            min_rtt, max_rtt = check_rtt(website[key]["ipv4_addresses"])
+            website[key]["rtt_range"] = [min_rtt, max_rtt]
+    with open(sys.argv[2], "w") as f:
+        json.dump(website, f, indent=4)
+    f.close()
 def get_ipv6(address,website):
     website[address]["ipv6_addresses"] = []
     try:
@@ -157,7 +160,26 @@ def check_rdns(ips):
         except Exception as e:
             print(e)
     return names
-
+def check_rtt(ips):
+    shortest = 100000
+    longest = 0
+    for i in ips:
+        try:
+            start = time.time()
+            s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            s.settimeout(2)
+            s.connect((i, 443))
+            s.close()
+            end = time.time()
+            rtt = end - start
+            if rtt < shortest:
+                shortest = rtt
+            if rtt > longest:
+                longest = rtt
+        except Exception as e:
+            print(e)
+    return shortest, longest
+    
 
 if __name__ == "__main__":
     main()
